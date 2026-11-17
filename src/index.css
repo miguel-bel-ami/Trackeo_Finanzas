@@ -41,9 +41,15 @@
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
+    --shadow:rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+    --color-active-control: #0eab00;
+    --color-inactive-control: #0eab0095;
+    --color-generic-button: #353a40;
+    --color-generic-border-button: #1d1f22;
+    --white-color-title: #ffffff;
+    --green-color-title: #22c55e; 
+    --transition-color-items: all 0.2s ease-in-out;
+}
 
   #social .button-icon {
     filter: invert(1) brightness(2);
@@ -51,15 +57,15 @@
 }
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  
 }
 
 body {
